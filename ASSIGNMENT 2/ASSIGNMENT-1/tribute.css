@@ -1,0 +1,107 @@
+/* GENERAL SETTING */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY STYLING*/
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.8 ;
+    background-color: whitesmoke;
+    color: black;
+    padding: 20px;
+
+}
+
+/* Header styling*/
+
+header{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+header h1{
+    font-size: 3.5em;
+    color: #000;
+}
+
+header p{
+    font-size: 1.5em;
+    color: darkgrey;
+}
+
+/*Tribute section*/
+.tribute {
+    text-align: centre;
+    margin-bottom: 15px;
+}
+
+.tribute img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    background-color:grey;
+    
+    
+
+}
+
+blockquote{
+    font-style: italic;
+    font-size: large;
+    text-align: center;
+    margin: 15px auto;
+    padding: 20px;
+    max-width: min-content;
+    border-left: 3.5px solid;
+    color: black;
+}
+
+/* Biography section*/
+
+.bio h2, .bio h3 {
+    color: seagreen;
+    margin-bottom: 10px;
+
+}
+
+.bio ul{
+    list-style-type:decs;
+    margin-left: 15px;
+    
+}
+
+.bio ul li{
+    margin-bottom: 20px;
+    
+}
+
+/* Button styling */
+.btn{
+    display: inline-block;
+    padding: 15px 20px;
+    background-color:black;
+    color: red;
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 15px;
+
+
+}
+.botton :hover{
+    background-color:black;
+
+}
+
+/* Footer Styling*/
+
+footer {
+    text-align: center;
+    margin-top: 20;
+    font-size: small;
+    color:black;
+}
+
+
